@@ -9,6 +9,7 @@
 |Quality Assurance|Samuel|Manage the unit testing of the modules and automated testing|
 |Developer|Tricia|Manages the overall development of the solution|
 |Developer|Jun Jie|Manages the overall development of the solution|
+
 **Member's priority is their role's responsibility but not limited to it. 
 
 ## Workflow
