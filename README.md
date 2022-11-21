@@ -1,4 +1,8 @@
-### Hi there 👋
+## Team 5 DevOps Oct 2022
+
+### Team Members & Roles
+
+Scrum Master: Kevin
 
 <!--
 **DevOps-Team5-2022/DevOps-Team5-2022** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
