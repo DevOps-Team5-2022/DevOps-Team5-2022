@@ -38,8 +38,22 @@ Pull Request - Everyone can create a pull request.
 A pull request can only be approved by Elgin (Lead Dev) or Optional,Kevin (Scrum Master).
 
 ### Change requirement strategy
+Identify new requirements or adjust existing requirements. 
+Amend Requirements document.
+All user stories and issues relating to old requirements that will be changed is to be removed.
+Create new user stories and issues.
+Rank new issues.
+Amend burn up or burn down chart etc.
 
 ### Deployment strategy
+How the code should be pushed out.
+
+1 Live version (PROD)
+1 Testing version (UAT)
+
+Develop the code on UAT, test it on UAT. Code is developed in a modular fashion.
+Only when all okay on UAT push to live. 
+Minimal pushes to live branch. No bug fixes allowed on live branch only roll backs if major error was discovered.
 
 
 <!--
