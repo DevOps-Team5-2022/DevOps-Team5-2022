@@ -55,6 +55,11 @@ Develop the code on UAT, test it on UAT. Code is developed in a modular fashion.
 Only when all okay on UAT push to live. 
 Minimal pushes to live branch. No bug fixes allowed on live branch only roll backs if major error was discovered.
 
+### Communications Strategy
+Communications will be via teams for calling. Usage of telegram for text communication.
+
+### Delivery Strategy
+
 
 <!--
 **DevOps-Team5-2022/DevOps-Team5-2022** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
