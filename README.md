@@ -48,23 +48,12 @@ Amend burn up or burn down chart etc.
 ### Deployment strategy
 How the code should be pushed out.
 
-1 Live version (Main)
-1 Testing version (UAT)
 
-1. Clone Live to create UAT branch.
-2. All to clone UAT branch and develop locally
-4. Pull Request back to UAT Branch.
-5. CI to check if code looks okay(?)
-6. If CI is okay accept Pull Request to UAT branch. If conflict manual resolve.
-7. From UAT Branch Pull Request to Main Branch.
-8. CI to check all Test Cases covers all Functions.
-9. If CI okay notify team.
-10. Manually accept Pull Request.
-
-Develop the code on UAT, test it on UAT. Code is developed in a modular fashion.
-Only when all okay on UAT push to live. 
-Minimal pushes to live branch. No bug fixes allowed on live branch only roll backs if major error was discovered.
-
+1. User to clone main branch and create a new branch to write functions locally.
+2. Once function is completed to do a Pull Request back to main branch.
+3. CI is run during the pull request
+4. If CI is okay and merges are ok. Pull Request type Sync will trigger CDelivery. Creating the tags.
+5. Once team is satisfied, manually do a release.
 
 
 ### Communications Strategy
